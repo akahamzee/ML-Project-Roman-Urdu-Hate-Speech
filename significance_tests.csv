@@ -1,0 +1,6 @@
+A,B,F1_A,F1_B,diff_B_minus_A,boot_CI_low,boot_CI_high,A_right_B_wrong,A_wrong_B_right,McNemar_p
+B1 word + LR,M1 char + LR,0.8755,0.8929,0.0174,0.0043,0.03,74,109,0.0118
+B2 word + SVM,M2 char + SVM,0.8795,0.8958,0.0163,0.0037,0.0305,78,111,0.0197
+B1 word + LR,M3 word+char + LR,0.8755,0.8981,0.0226,0.012,0.0331,37,82,0.0
+M1 char + LR,M3 word+char + LR,0.8929,0.8981,0.0052,-0.0027,0.0133,29,39,0.275
+M1 char + LR,S2000 subword (BPE 2000) + LR,0.8929,0.874,-0.0189,-0.0309,-0.0069,95,57,0.0026
